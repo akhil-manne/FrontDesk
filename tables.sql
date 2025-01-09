@@ -56,4 +56,9 @@ CREATE TABLE Appointments (
     FOREIGN KEY (doc_id) REFERENCES Doctor(doc_id)
 );
 
+INSERT INTO FrontDeskStaff (username, password)
+VALUES 
+('frontDeskUser', 'frontDeskPass123'),
+('frontDeskUser2', 'securePass456'),
+('frontDeskUser3', 'anotherPass789');
 

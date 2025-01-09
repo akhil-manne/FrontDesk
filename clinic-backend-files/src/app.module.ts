@@ -15,7 +15,7 @@ import { Queue } from './entities/queue.entity';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'Superb@248',
+      password: 'password',
       database: 'clinic_db',
       entities: [Appointment, Doctor, Queue],
       driver: require('mysql2'),
